@@ -82,11 +82,11 @@ h5,
 h6 {
   margin-top: 0;
   margin-bottom: 0;
-  line-height: 1.2;
+  line-height: 2.5;
 }
 p {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 strong,
 b {
@@ -385,8 +385,8 @@ img {
 }
 .post-content .highlight,
 .post-content pre {
-  margin-left: calc(var(--gap) * -1);
-  margin-right: calc(var(--gap) * -1);
+  margin-left: calc(var(--gap) * 0);
+  margin-right: calc(var(--gap) * 0);
   margin-bottom: 32px;
   background: var(--hljs-bg) !important;
   border-radius: var(--radius);
